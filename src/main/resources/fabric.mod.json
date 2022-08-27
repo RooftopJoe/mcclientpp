@@ -1,0 +1,46 @@
+{
+    "schemaVersion": 1,
+    "id": "mcclientpp",
+    "version": "${version}",
+
+    "name": "MC Client++",
+    "description": "Utility mod that alters the Minecraft client as reenvisioned by the author.",
+    "authors": [
+        "Rooftop Joe"
+    ],
+    "contact": {
+        "homepage": "https://www.youtube.com/channel/UC4_PveAm8gCbG13BuKW6Mcg",
+        "sources": "https://github.com/RooftopJoe/mcclient++"
+    },
+    "contributors": [
+        {
+            "name": "Freepik",
+            "contact": {
+                "homepage": "https://www.flaticon.com/free-icons/support"
+            }
+        }
+    ],
+
+    "license": "LGPL-3.0-or-later",
+    "icon": "assets/mcclientpp/client.png",
+
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "rooftopjoe.mcclientpp.Main"
+        ],
+        "modmenu": [
+            "rooftopjoe.mcclientpp.ModMenuIntegration"
+        ]
+    },
+
+    "depends": {
+        "fabricloader": ">=0.14.6",
+        "fabric": "*",
+        "minecraft": "~1.19",
+        "java": ">=17"
+    },
+    "recommends": {
+        "modmenu": ">=4.0.6"
+    }
+}
