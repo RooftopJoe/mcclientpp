@@ -31,6 +31,8 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
     public boolean isShowFuel() { return hud.screen.showFuel; }
 
     public boolean isShowDetailedTooltips() { return hud.tooltip.showDetailedTooltips; }
+
+    public boolean isShowStatusEffectInfo() { return hud.misc.showStatusEffectInfo; }
 }
 
 @Config(name = "general") class GeneralConfig implements ConfigData {
@@ -39,6 +41,7 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 @Config(name = "hud") class HudConfig implements ConfigData {
     @ConfigEntry.Gui.CollapsibleObject ScreenConfig screen = new ScreenConfig();
     @ConfigEntry.Gui.CollapsibleObject TooltipConfig tooltip = new TooltipConfig();
+    @ConfigEntry.Gui.CollapsibleObject MiscConfig misc = new MiscConfig();
 
     static class ScreenConfig {
         @ConfigEntry.Gui.Tooltip boolean showFuel = true;
@@ -46,5 +49,9 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 
     static class TooltipConfig {
         @ConfigEntry.Gui.Tooltip boolean showDetailedTooltips = true;
+    }
+
+    static class MiscConfig {
+        @ConfigEntry.Gui.Tooltip boolean showStatusEffectInfo = true;
     }
 }

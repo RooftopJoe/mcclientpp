@@ -13,6 +13,10 @@
     "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips": "Show detailed item tooltips",
     "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips.@Tooltip": "Add a variety of information to item tooltips",
 
+    "text.autoconfig.mcclientpp.option.hud.misc": "Miscellaneous",
+    "text.autoconfig.mcclientpp.option.hud.misc.showStatusEffectInfo": "Show informative status effect icons",
+    "text.autoconfig.mcclientpp.option.hud.misc.showStatusEffectInfo.@Tooltip": "Show amplifier and duration in status effect icons",
+
     "container.mcclientpp.fuel.brewingstand": "Potions: %d",
     "container.mcclientpp.fuel.furnace": "Items: %d"
 }

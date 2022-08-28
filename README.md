@@ -24,6 +24,7 @@ For instructions on how to install any of above, refer to the documentation prov
 
 - Brewing stand and furnace fuel information
 - Detailed tooltips
+- Informative status effect icons
 
 ## License
 
