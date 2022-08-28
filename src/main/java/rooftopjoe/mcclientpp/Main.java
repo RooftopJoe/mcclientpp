@@ -27,11 +27,16 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import rooftopjoe.mcclientpp.tooltip.Tooltips;
+
 public class Main implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("mcclientpp");
 
     @Override public void onInitialize() {
         LOGGER.info("Registering configuration...");
         AutoConfig.register(ModConfig.class, PartitioningSerializer.wrap(GsonConfigSerializer::new));
+
+        LOGGER.info("Adding tooltips...");
+        Tooltips.addTooltips();
     }
 }
