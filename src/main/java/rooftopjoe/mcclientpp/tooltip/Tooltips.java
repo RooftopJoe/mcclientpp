@@ -42,6 +42,8 @@ public class Tooltips {
 
             if (!config.isShowDetailedTooltips() || stack.isEmpty())
                 return;
+
+            AxolotlBucketTooltip.add(stack, context, lines);
         });
     }
 
