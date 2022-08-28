@@ -23,7 +23,6 @@ import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 
 public class TextUtils {
     public enum Justification {
@@ -53,10 +52,10 @@ public class TextUtils {
         matrices.pop();
     }
 
-    public static void drawScreenTextBar(MatrixStack matrices, String text, int x, int y) {
+    public static void drawScreenTextBar(MatrixStack matrices, String text, int x, int y, int color) {
         int width = client.textRenderer.getWidth(text);
 
         DrawableHelper.fill(matrices, x - width - 12, y, x - 8, y + 12, Constants.SCREEN_TEXTBAR_COLOR);
-        client.textRenderer.drawWithShadow(matrices, text, x - width - 10, y + 2, Formatting.WHITE.getColorValue());
+        client.textRenderer.drawWithShadow(matrices, text, x - width - 10, y + 2, color);
     }
 }

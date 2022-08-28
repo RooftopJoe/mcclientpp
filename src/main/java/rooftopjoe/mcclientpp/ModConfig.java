@@ -28,6 +28,8 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 
     @ConfigEntry.Category("hud") @ConfigEntry.Gui.TransitiveObject public HudConfig hud = new HudConfig();
 
+    public boolean isShowFuel() { return hud.screen.showFuel; }
+
     public boolean isShowDetailedTooltips() { return hud.tooltip.showDetailedTooltips; }
 }
 
@@ -35,7 +37,12 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 }
 
 @Config(name = "hud") class HudConfig implements ConfigData {
+    @ConfigEntry.Gui.CollapsibleObject ScreenConfig screen = new ScreenConfig();
     @ConfigEntry.Gui.CollapsibleObject TooltipConfig tooltip = new TooltipConfig();
+
+    static class ScreenConfig {
+        @ConfigEntry.Gui.Tooltip boolean showFuel = true;
+    }
 
     static class TooltipConfig {
         @ConfigEntry.Gui.Tooltip boolean showDetailedTooltips = true;

@@ -5,7 +5,14 @@
 
     "text.autoconfig.mcclientpp.category.hud": "HUD",
 
+    "text.autoconfig.mcclientpp.option.hud.screen": "Screens",
+    "text.autoconfig.mcclientpp.option.hud.screen.showFuel": "Show fuel",
+    "text.autoconfig.mcclientpp.option.hud.screen.showFuel.@Tooltip": "Elaborate brewing stand and furnace fuel",
+
     "text.autoconfig.mcclientpp.option.hud.tooltip": "Tooltips",
     "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips": "Show detailed item tooltips",
-    "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips.@Tooltip": "Add a variety of information to item tooltips"
+    "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips.@Tooltip": "Add a variety of information to item tooltips",
+
+    "container.mcclientpp.fuel.brewingstand": "Potions: %d",
+    "container.mcclientpp.fuel.furnace": "Items: %d"
 }

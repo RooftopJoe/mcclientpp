@@ -6,6 +6,9 @@
     "mixins": [
     ],
     "client": [
+        "AbstractFurnaceScreenHandlerAccessor",
+        "AbstractFurnaceScreenMixin",
+        "BrewingStandScreenMixin",
         "EnchantmentMixin"
     ],
     "injectors": {

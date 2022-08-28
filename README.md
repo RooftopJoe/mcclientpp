@@ -22,6 +22,7 @@ For instructions on how to install any of above, refer to the documentation prov
 
 ### HUD
 
+- Brewing stand and furnace fuel information
 - Detailed tooltips
 
 ## License
