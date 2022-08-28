@@ -25,7 +25,19 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 
 @Config(name = "mcclientpp") public class ModConfig extends PartitioningSerializer.GlobalData {
     @ConfigEntry.Category("general") @ConfigEntry.Gui.TransitiveObject public GeneralConfig general = new GeneralConfig();
+
+    @ConfigEntry.Category("hud") @ConfigEntry.Gui.TransitiveObject public HudConfig hud = new HudConfig();
+
+    public boolean isShowDetailedTooltips() { return hud.tooltip.showDetailedTooltips; }
 }
 
 @Config(name = "general") class GeneralConfig implements ConfigData {
+}
+
+@Config(name = "hud") class HudConfig implements ConfigData {
+    @ConfigEntry.Gui.CollapsibleObject TooltipConfig tooltip = new TooltipConfig();
+
+    static class TooltipConfig {
+        @ConfigEntry.Gui.Tooltip boolean showDetailedTooltips = true;
+    }
 }

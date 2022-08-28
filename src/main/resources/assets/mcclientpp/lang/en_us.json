@@ -1,5 +1,11 @@
 {
     "text.autoconfig.mcclientpp.title": "MC Client++ Options",
 
-    "text.autoconfig.mcclientpp.category.general": "General"
+    "text.autoconfig.mcclientpp.category.general": "General",
+
+    "text.autoconfig.mcclientpp.category.hud": "HUD",
+
+    "text.autoconfig.mcclientpp.option.hud.tooltip": "Tooltips",
+    "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips": "Show detailed item tooltips",
+    "text.autoconfig.mcclientpp.option.hud.tooltip.showDetailedTooltips.@Tooltip": "Add a variety of information to item tooltips"
 }

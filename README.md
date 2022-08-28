@@ -18,6 +18,12 @@ and the [Cloth Config API](https://www.curseforge.com/minecraft/mc-mods/cloth-co
 
 For instructions on how to install any of above, refer to the documentation provided by their respective vendors.
 
+## Features
+
+### HUD
+
+- Detailed tooltips
+
 ## License
 
 *MC Client++* is distributed under the terms of the GNU Lesser General Public License. See the `COPYING` and `COPYING.LESSER` files
