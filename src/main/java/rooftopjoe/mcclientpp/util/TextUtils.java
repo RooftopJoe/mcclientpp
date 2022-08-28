@@ -18,6 +18,10 @@
 
 package rooftopjoe.mcclientpp.util;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
@@ -57,5 +61,15 @@ public class TextUtils {
 
         DrawableHelper.fill(matrices, x - width - 12, y, x - 8, y + 12, Constants.SCREEN_TEXTBAR_COLOR);
         client.textRenderer.drawWithShadow(matrices, text, x - width - 10, y + 2, color);
+    }
+
+    public static NumberFormat tenthPlace() {
+        NumberFormat tenthPlace = DecimalFormat.getInstance();
+
+        tenthPlace.setMinimumFractionDigits(0);
+        tenthPlace.setMaximumFractionDigits(1);
+        tenthPlace.setRoundingMode(RoundingMode.HALF_UP);
+
+        return tenthPlace;
     }
 }

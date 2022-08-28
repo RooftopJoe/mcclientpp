@@ -44,6 +44,7 @@ public class Tooltips {
                 return;
 
             AxolotlBucketTooltip.add(stack, context, lines);
+            CompostTooltip.add(stack, context, lines);
         });
     }
 
