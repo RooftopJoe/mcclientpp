@@ -24,5 +24,6 @@
     "tooltip.mcclientpp.comparatoroutput": "Comparator Output: %d",
     "tooltip.mcclientpp.compostingchance": "Composting Chance: %f%%",
     "tooltip.mcclientpp.hardness": "Hardness: %f",
-    "tooltip.mcclientpp.luminance": "Light Emission: %d"
+    "tooltip.mcclientpp.luminance": "Light Emission: %d",
+    "tooltip.mcclientpp.miningspeed": " %fx Mining Speed"
 }

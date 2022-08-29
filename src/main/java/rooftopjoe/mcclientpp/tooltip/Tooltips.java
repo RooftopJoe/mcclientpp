@@ -47,6 +47,7 @@ public class Tooltips {
             BlockTooltip.add(stack, context, lines);
             CompostTooltip.add(stack, context, lines);
             MusicDiscTooltip.add(stack, context, lines);
+            ToolTooltip.add(stack, context, lines);
         });
     }
 
