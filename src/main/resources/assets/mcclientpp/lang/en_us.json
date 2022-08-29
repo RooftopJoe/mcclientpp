@@ -20,5 +20,8 @@
     "container.mcclientpp.fuel.brewingstand": "Potions: %d",
     "container.mcclientpp.fuel.furnace": "Items: %d",
 
-    "tooltip.mcclientpp.compostingchance": "Composting Chance: %f%%"
+    "tooltip.mcclientpp.blastresistance": "Blast Resistance: %f",
+    "tooltip.mcclientpp.compostingchance": "Composting Chance: %f%%",
+    "tooltip.mcclientpp.hardness": "Hardness: %f",
+    "tooltip.mcclientpp.luminance": "Light Emission: %d"
 }
