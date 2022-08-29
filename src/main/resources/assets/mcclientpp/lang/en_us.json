@@ -21,6 +21,7 @@
     "container.mcclientpp.fuel.furnace": "Items: %d",
 
     "tooltip.mcclientpp.blastresistance": "Blast Resistance: %f",
+    "tooltip.mcclientpp.comparatoroutput": "Comparator Output: %d",
     "tooltip.mcclientpp.compostingchance": "Composting Chance: %f%%",
     "tooltip.mcclientpp.hardness": "Hardness: %f",
     "tooltip.mcclientpp.luminance": "Light Emission: %d"

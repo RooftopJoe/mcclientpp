@@ -72,4 +72,10 @@ public class TextUtils {
 
         return tenthPlace;
     }
+
+    public static String durationToString(int ticks) {
+        int seconds = ticks / 20;
+
+        return String.format("%01d:%02d", seconds / 60, seconds % 60);
+    }
 }
