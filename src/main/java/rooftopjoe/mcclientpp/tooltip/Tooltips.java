@@ -46,6 +46,7 @@ public class Tooltips {
             AxolotlBucketTooltip.add(stack, context, lines);
             BlockTooltip.add(stack, context, lines);
             CompostTooltip.add(stack, context, lines);
+            FoodTooltip.add(stack,context, lines);
             FuelTooltip.add(stack, context, lines);
             MusicDiscTooltip.add(stack, context, lines);
             ToolTooltip.add(stack, context, lines);
