@@ -3,6 +3,9 @@
 
     "text.autoconfig.mcclientpp.category.general": "General",
 
+    "text.autoconfig.mcclientpp.option.general.cheat": "Cheat",
+    "text.autoconfig.mcclientpp.option.general.cheat.@Tooltip": "Expose information that might provide an unfair advantage",
+
     "text.autoconfig.mcclientpp.category.hud": "HUD",
 
     "text.autoconfig.mcclientpp.option.hud.screen": "Screens",

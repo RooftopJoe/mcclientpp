@@ -26,6 +26,8 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 @Config(name = "mcclientpp") public class ModConfig extends PartitioningSerializer.GlobalData {
     @ConfigEntry.Category("general") @ConfigEntry.Gui.TransitiveObject public GeneralConfig general = new GeneralConfig();
 
+    public boolean isCheat() { return general.cheat; }
+
     @ConfigEntry.Category("hud") @ConfigEntry.Gui.TransitiveObject public HudConfig hud = new HudConfig();
 
     public boolean isShowFuel() { return hud.screen.showFuel; }
@@ -36,6 +38,7 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 }
 
 @Config(name = "general") class GeneralConfig implements ConfigData {
+    @ConfigEntry.Gui.Tooltip boolean cheat = false;
 }
 
 @Config(name = "hud") class HudConfig implements ConfigData {
