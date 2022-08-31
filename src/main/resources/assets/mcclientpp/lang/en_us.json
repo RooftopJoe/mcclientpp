@@ -23,6 +23,7 @@
     "container.mcclientpp.fuel.brewingstand": "Potions: %d",
     "container.mcclientpp.fuel.furnace": "Items: %d",
 
+    "tooltip.mcclientpp.beecount": "Bees: %d",
     "tooltip.mcclientpp.blastresistance": "Blast Resistance: %f",
     "tooltip.mcclientpp.comparatoroutput": "Comparator Output: %d",
     "tooltip.mcclientpp.compostingchance": "Composting Chance: %f%%",
@@ -31,6 +32,7 @@
     "tooltip.mcclientpp.foodstats.saturation": "Saturation Points",
     "tooltip.mcclientpp.fueltime": "Fuel Time: %d",
     "tooltip.mcclientpp.hardness": "Hardness: %f",
+    "tooltip.mcclientpp.honeylevel": "Honey Level: %d",
     "tooltip.mcclientpp.luminance": "Light Emission: %d",
     "tooltip.mcclientpp.miningspeed": " %fx Mining Speed"
 }
